@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-simulatoion:
-    runs-on: [self-hosted, arbor]
+    runs-on: [self-hosted, arbor_lab]
 
     steps:
       - name: 1. Checkout Repository
